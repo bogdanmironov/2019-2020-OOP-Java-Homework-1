@@ -12,6 +12,6 @@ public class Nuts extends BaseFood {
 
     @Override
     public String toString() {
-        return "Type: Nuts; Quantity:" + getQuantity() + ";Quality:" + getQuality() + ";";
+        return "Type:Nuts; Quantity:" + getQuantity() + "; Quality:" + getQuality();
     }
 }
