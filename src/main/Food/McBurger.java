@@ -21,6 +21,6 @@ public class McBurger extends BaseFood {
 
     @Override
     public String toString() {
-        return "Type: McBurger; Quantity:" + getQuantity() + ";Quality:" + getQuality() + ";";
+        return "Type:McBurger; Quantity:" + getQuantity() + "; Quality:" + getQuality();
     }
 }
