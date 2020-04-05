@@ -19,6 +19,6 @@ public class Cake extends BaseFood {
 
     @Override
     public String toString() {
-        return "Type: Cake; Quantity:" + getQuantity() + ";Quality:" + getQuality() + ";";
+        return "Type:Cake; Quantity:" + getQuantity() + "; Quality:" + getQuality();
     }
 }
